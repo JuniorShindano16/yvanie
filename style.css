@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*background: linear-gradient(to bottom,rgb(233, 225, 225) 50%, rgb(227, 82, 82) 50% )*/
+}
+
+.wrapper{
+    /*background: linear-gradient(to bottom,rgb(233, 225, 225) 50%, rgb(227, 82, 82) 50% )*/
+}
+.corps{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   text-align: center;
+   background: linear-gradient(to bottom,rgb(233, 225, 225) 50%, rgb(227, 82, 82) 50% )
+   
+}
+
+.cards{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 100%;
+    
+}
+
+.card-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #fff;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 20px 15px 35px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    height: auto;
+}
+
+.card-item .phopro{ 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0.00000000001px;
+  border: solid;
+  border-color: rgb(227, 82, 82);
+  border-radius: 50%;
+}
+
+.card-item .phopro img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.nom{
+    margin-top: 20px;
+}
+
+.role{
+    color:rgb(227, 82, 82);;
+}
+
+.icones{
+    margin-top: 10px;
+    color:rgb(227, 82, 82);
+}
+
+.textepied{
+    background-color: #fff;
+    color:rgb(227, 82, 82);
+    margin-top: 25px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 10px;
+    min-width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.entete{
+    margin-top: 25px;
+    margin-left: 500px;
+    margin-right: 500px;
+    color:rgb(227, 82, 82); 
+}
+
+@media screen and (max-width: 700px) {
+    
+    body{
+        background-color: green;
+    }
+
+    .corps{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .cards{
+        display: flex;
+
+        flex-wrap: wrap;
+
+    }
+    
+}
